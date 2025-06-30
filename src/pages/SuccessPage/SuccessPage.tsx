@@ -15,7 +15,7 @@ const SuccessPage: React.FC = () => {
           </p>
         </div>
         <div className={styles.navBlock}>
-          <Link to={"/"} className={styles.btn}>
+          <Link to={"/Tako"} className={styles.btn}>
             На головну
             <ArrowUpRightIcon size={28} weight="bold" className={styles.icon} />
           </Link>

@@ -11,7 +11,7 @@ const Logo: React.FC<LogoProps> = (props) => {
   const logo = props.theme === "light" ? LogoIconLight : LogoIconDark;
   return (
     <>
-      <Link to={"/"} className={props.className}>
+      <Link to={"/Tako"} className={props.className}>
         <PictureTag src={logo} alt="Logo" />
       </Link>
     </>

@@ -122,7 +122,7 @@ const FormPage: React.FC = () => {
       newErrors.middleName = "По батькові обов'язково";
     setErrors(newErrors);
     if (Object.keys(newErrors).length === 0) {
-      navigate("/success");
+      navigate("/Tako/success");
       console.log("formData:", formData);
     }
   };

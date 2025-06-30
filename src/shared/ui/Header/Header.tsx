@@ -57,7 +57,7 @@ const Header: React.FC = () => {
     },
   ];
   const navigateLink = () => {
-    navigate("/form");
+    navigate("/Tako/form");
   };
   return (
     <>

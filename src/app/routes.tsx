@@ -5,15 +5,15 @@ import SuccessPage from "../pages/SuccessPage/SuccessPage";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Tako",
     element: <Homepage />,
   },
   {
-    path: "/form",
+    path: "/Tako/form",
     element: <FormPage />,
   },
   {
-    path: "/success",
+    path: "/Tako/success",
     element: <SuccessPage />,
   },
 ]);
