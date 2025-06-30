@@ -742,6 +742,11 @@
   .header {
     width: 100% !important;
     height: 56px;
+    .counter {
+      p {
+        font-size: 12px !important;
+      }
+    }
     .headerContent {
       .btnSupport {
         width: 143px;

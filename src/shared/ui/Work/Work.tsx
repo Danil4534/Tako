@@ -206,7 +206,7 @@ const Work: React.FC = () => {
                 </div>
                 <div className={styles.stepsVector_1440}>
                   <svg
-                    width="804"
+                    width="795"
                     height="378"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
