@@ -3,6 +3,7 @@
   background: var(--primary-dark-navy);
   border-radius: 8px;
   padding: 72px 24px 32px;
+
   .footerContent {
     display: flex;
     flex-direction: row;
@@ -79,9 +80,13 @@
     }
   }
   hr {
+    padding: 0 24px;
     border: none;
     height: 1px;
     background-color: var(--neutral-dark-gray);
+  }
+  .rights {
+    color: rgba(208, 208, 208, 1);
   }
   button {
     margin-top: 24px;
@@ -105,6 +110,7 @@
     vertical-align: middle;
   }
 }
+
 @media (max-width: 1442px) {
   .footerContainer {
     width: 100%;
@@ -190,6 +196,7 @@
 
 @media (max-width: 1024px) {
   .footerContainer {
+    width: 100% !important;
     padding-bottom: 0px;
     .footerContent {
       .links {

@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
         ))}
       </ul>
       <hr />
-      <p>© 2025 TAKO. All rights reserved</p>
+      <p className={styles.rights}>© 2025 TAKO. All rights reserved</p>
     </footer>
   );
 };

@@ -169,17 +169,16 @@ hr {
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 24px !important;
     background-color: var(--primary-dark-navy);
     border-radius: 8px;
-    padding: 32px 24px;
+    padding: 32px 24px !important;
 
     .subtitle {
       display: block;
-
       align-items: center;
       p {
-        width: 279px !important;
+        width: auto !important;
         color: var(--neutral-white);
         font-family: var(--font-family-Light);
         margin-bottom: 32px;
@@ -193,25 +192,25 @@ hr {
       }
     }
     h1 {
-      height: 67px;
-      font-family: var(--font-family-RegularHead);
+      height: auto;
       font-weight: 300;
-      font-size: 36px;
+      font-size: 36px !important;
       line-height: 120%;
-      letter-spacing: 1.25%;
+      letter-spacing: 1.35%;
       vertical-align: middle;
+      font-family: var(--font-family-RegularHead);
       color: var(--neutral-white);
     }
     .socialLinksSize {
-      width: 56px;
-      height: 56px;
+      width: 56px !important;
+      height: 56px !important;
     }
   }
   .responseVideo {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap: wrap;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    flex-wrap: nowrap !important;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -236,7 +235,7 @@ hr {
 @media (max-width: 1024px) {
   .responsesHeader {
     height: auto;
-    padding: 48px 24px !important;
+    padding: 48px 24px;
   }
   h1 {
     font-size: 36px !important;
@@ -272,7 +271,7 @@ hr {
     vertical-align: middle;
   }
   p {
-    width: 352px !important;
+    // width: 352px !important;
     font-size: 14px !important;
     font-weight: 300;
     line-height: 120%;
