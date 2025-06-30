@@ -1,0 +1,58 @@
+:root {
+  --primary-deep-blue: #0f5ebb;
+  --primary-golden-yellow: #ffd719;
+  --primary-dark-navy: #1c2f43;
+  --secondary-light-blue: #5a9bef;
+  --secondary-warm-yellow: #ffe46e;
+  --neutral-white: #ffffff;
+  --neutral-light-gray: #f6f7f9;
+  --neutral-medium-gray: rgba(102, 102, 102, 1);
+  --neutral-medium-gray-second: rgba(208, 208, 208, 1);
+  --neutral-dark-gray: #6b6b6b;
+  --systems-error: #d32f2f;
+  --systems-success: #388e3c;
+  --systems-warning: #fbc02d;
+  --font-family-Bold: "e-Ukraine-Bold";
+  --font-family-Light: "e-Ukraine-Light";
+  --font-family-Medium: "e-Ukraine-Medium";
+  --font-family-Regular: "e-Ukraine-Regular";
+  --font-family-Thin: "e-Ukraine-Thin";
+  --font-family-UltraLight: "e-UkraineHead-UltraLight";
+  --font-family-RegularHead: "e-UkraineHead-Regular";
+}
+
+@font-face {
+  font-family: "e-Ukraine-Bold";
+  src: url("./fonts/e-Ukraine-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "e-Ukraine-Light";
+  src: url("./fonts/e-Ukraine-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "e-Ukraine-Medium";
+  src: url("./fonts/e-Ukraine-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "e-Ukraine-Regular";
+  src: url("./fonts/e-Ukraine-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "e-Ukraine-Thin";
+  src: url("./fonts/e-Ukraine-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "e-Ukraine-UltraLight";
+  src: url("./fonts/e-Ukraine-UltraLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "e-UkraineHead-Regular";
+  src: url("./fonts/e-UkraineHead-Regular.woff2") format("woff2");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+}

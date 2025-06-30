@@ -1,0 +1,16 @@
+main {
+  padding: 80px 8px 8px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: var(--neutral-light-gray);
+  .section {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  main {
+    padding-top: 56px;
+  }
+}

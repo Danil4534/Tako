@@ -1,0 +1,291 @@
+.banner {
+  max-width: 100%;
+  height: 920px;
+  position: relative;
+  .droneBg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .bannerContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+
+    align-items: end;
+    padding: 48px 182px;
+    bottom: 0;
+    h1 {
+      width: 789px;
+      font-family: var(--font-family-RegularHead);
+      color: var(--neutral-white);
+      font-weight: 400;
+      font-size: 72px;
+      line-height: 120%;
+      letter-spacing: 1.2%;
+      vertical-align: middle;
+    }
+    .bannerBtn {
+      width: 554px;
+      height: 72px;
+      margin-top: 48px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 24px;
+      padding-left: 32px;
+      background: var(--primary-deep-blue);
+      border: none;
+      font-family: var(--font-family-Thin);
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 120%;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color: var(--neutral-white);
+      span {
+        transition: transform 0.3s ease-in-out;
+      }
+      .bannerBtnHouseIcon {
+        opacity: 0;
+      }
+      .bannerBtnArrowIcon {
+        transition: opacity 0.3s ease-in-out;
+        opacity: 1;
+      }
+      &:hover {
+        cursor: pointer;
+        background: var(--secondary-light-blue);
+        span {
+          transform: translateX(75%);
+
+          transition: 0.3s ease-in-out;
+        }
+        .bannerBtnHouseIcon {
+          opacity: 1;
+        }
+        .bannerBtnArrowIcon {
+          opacity: 0;
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .bannerContainer {
+    padding: 24px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    max-width: 100%;
+    height: 532px;
+    position: relative;
+    .droneBg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    .bannerContainer {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: flex;
+      align-items: end;
+      padding: 48px 24px;
+      bottom: 0;
+      h1 {
+        width: 789px;
+        font-family: var(--font-family-RegularHead);
+        color: var(--neutral-white);
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 120%;
+        letter-spacing: 1.2%;
+        vertical-align: middle;
+      }
+      .bannerBtn {
+        width: 459px;
+        height: 56px;
+        margin-top: 48px;
+        border-radius: 999px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 24px;
+        padding-left: 32px;
+        background: var(--primary-deep-blue);
+        border: none;
+        font-family: var(--font-family-Thin);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: var(--neutral-white);
+        span {
+          transition: transform 0.3s ease-in-out;
+        }
+        .bannerBtnHouseIcon {
+          opacity: 0;
+        }
+        .bannerBtnArrowIcon {
+          transition: opacity 0.3s ease-in-out;
+          opacity: 1;
+        }
+        &:hover {
+          cursor: pointer;
+          background: var(--secondary-light-blue);
+          span {
+            transform: translateX(75%);
+
+            transition: 0.3s ease-in-out;
+          }
+          .bannerBtnHouseIcon {
+            opacity: 1;
+          }
+          .bannerBtnArrowIcon {
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    // overflow: visible !important;
+    border-radius: 16px;
+    .droneBg {
+      width: 120%;
+      height: 532px;
+      border-radius: 16px;
+    }
+
+    .bannerContainer {
+      position: relative;
+      display: block;
+      align-items: auto;
+      padding: 24px 16px !important;
+      .bannerContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        h1 {
+          width: auto !important;
+          font-family: var(--font-family-RegularHead);
+          color: var(--neutral-white);
+          font-weight: 400;
+          font-size: 36px !important;
+          text-wrap: wrap !important;
+          line-height: 120%;
+          letter-spacing: 1.2%;
+          vertical-align: middle;
+        }
+
+        .bannerBtn {
+          width: auto;
+          height: 56px;
+          margin-top: 48px;
+          border-radius: 999px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-right: 24px;
+          padding-left: 32px;
+          background: var(--primary-deep-blue);
+          border: none;
+          font-family: var(--font-family-Thin);
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 120%;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          color: var(--neutral-white);
+          span {
+            transition: transform 0.3s ease-in-out;
+          }
+          .bannerBtnHouseIcon {
+            opacity: 0;
+          }
+          .bannerBtnArrowIcon {
+            transition: opacity 0.3s ease-in-out;
+            opacity: 1;
+          }
+          &:hover {
+            cursor: pointer;
+            background: var(--secondary-light-blue);
+            span {
+              transform: translateX(75%);
+
+              transition: 0.3s ease-in-out;
+            }
+            .bannerBtnHouseIcon {
+              opacity: 1;
+            }
+            .bannerBtnArrowIcon {
+              opacity: 0;
+              transition: 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    .droneBg {
+      width: 120%;
+
+      height: 532px;
+      border-radius: 16px;
+    }
+
+    .bannerContainer {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: flex;
+      align-items: end;
+      padding: 48px 24px;
+      bottom: 0;
+      h1 {
+        width: 700px !important;
+        font-family: var(--font-family-RegularHead);
+        color: var(--neutral-white);
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 120%;
+        letter-spacing: 1.2%;
+        vertical-align: middle;
+      }
+    }
+  }
+}
